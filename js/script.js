@@ -38,7 +38,7 @@ var h = header.getElementsByTagName("h1")[0];
 var text = getMeta("tw:text");
 
 var tw = typewriter(h).withAccuracy(100)
-                    .withMinimumSpeed(12)
+                    .withMinimumSpeed(9)
                     .withMaximumSpeed(15)
                     .build();
 
