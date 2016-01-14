@@ -1,0 +1,24 @@
+{
+  "name": "foreverj.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "python -m SimpleHTTPServer 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foreverj/foreverj.github.io.git"
+  },
+  "author": "Jianan Jiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/foreverj/foreverj.github.io/issues"
+  },
+  "homepage": "foreverj.github.io",
+  "private": true,
+  "dependencies": {
+    "typewriter": "^0.2.1"
+  }
+}
