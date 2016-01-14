@@ -43,7 +43,7 @@ var tw = typewriter(h).withAccuracy(100)
                     .build();
 
 tw.clear()
-    .waitRange(500,1000)
+    .waitRange(800,1000)
     .type(text, function(){
         document.querySelector('body').classList.add('active');
         document.querySelector('.content').classList.add('active');
