@@ -1,0 +1,3 @@
+[submodule "cslr"]
+	path = cslr
+	url = https://github.com/jian-jiang/cslr.git
