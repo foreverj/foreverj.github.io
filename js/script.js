@@ -38,12 +38,12 @@ var h = header.getElementsByTagName("h1")[0];
 var text = getMeta("tw:text");
 
 var tw = typewriter(h).withAccuracy(100)
-                    .withMinimumSpeed(12)
+                    .withMinimumSpeed(9)
                     .withMaximumSpeed(15)
                     .build();
 
 tw.clear()
-    .waitRange(500,1000)
+    .waitRange(800,1000)
     .type(text, function(){
         document.querySelector('body').classList.add('active');
         document.querySelector('.content').classList.add('active');
