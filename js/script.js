@@ -49,4 +49,20 @@ window.onload = function(){
         document.querySelector('body').classList.add('active');
         document.querySelector('.content').classList.add('active');
     });
+
+    //Adages
+    var adage = getAdage();
+    console.log(adage.sentence);
+    console.log("By: ",adage.author);
+}
+
+var getAdage = function(){
+  var adages = [
+    {
+      sentence: "It is poignant but fundamental that the flag protects those who hold it in contempt.",
+      author: "Justice Anthony Kennedy"
+    }
+  ];
+  var inx = Math.floor(Math.random()*adages.length);
+  return adages[inx];
 }
