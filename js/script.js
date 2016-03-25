@@ -61,6 +61,10 @@ var getAdage = function(){
     {
       sentence: "It is poignant but fundamental that the flag protects those who hold it in contempt.",
       author: "Justice Anthony Kennedy"
+    },
+    {
+        sentence: "At the beginning, time is the only luxury we have; at the end, time is the only luxury we strive.",
+        author: "Anonymous"
     }
   ];
   var inx = Math.floor(Math.random()*adages.length);
